@@ -6,6 +6,7 @@
           <div class="card-header">
             <form @submit.prevent="getData()">
               <div class="row">
+                <div class="col-md-12"><small>Please select start date, end date and click on search button then see the results.</small></div>
                 <div class="col-md-5">
                   <input
                     class="form-control"
